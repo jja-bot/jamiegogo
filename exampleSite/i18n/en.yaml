@@ -1,30 +1,25 @@
-- id: blogTitle
-  translation: Latest Post
-- id: readMore
-  translation: Read more
-- id: viewAllPost
-  translation: View All Post
-- id: share
-  translation: Share
-- id: aboutAuthor
-  translation: About author
+---
+- id: 最新資訊
+  translation: 最新資訊
+- id: 看更多
+  translation: 看更多
+- id: 全部資訊
+  translation: 全部資訊
+- id: 分享
+  translation: 分享
+- id: 作者
+  translation: 作者
 - id: authorsPosts
   translation: Author's posts
 - id: all
   translation: All
-- id: about
-  translation: About Us
-- id: services
-  translation: Service
-- id: portfolio
-  translation: Portfolio
-- id: team
-  translation: Team
-- id: pricing
-  translation: Pricing
-- id: blog
-  translation: Blog
-- id: contact
-  translation: Contact
-- id: themefisher
-  translation: Themefisher
+- id: 關於
+  translation: 3 大服務
+- id: 服務
+  translation: 認證 / 嚴選維修廠
+- id: 團隊
+  translation: 嚴選師傅
+- id: 最新資訊
+  translation: 最新資訊
+- id: 預約
+  translation: 預約保修 / 聯絡我們
