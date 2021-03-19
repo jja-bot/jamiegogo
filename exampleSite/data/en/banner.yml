@@ -1,8 +1,8 @@
 ---
 banner:
   enable: true
-  bg_image_webp: images/backgrounds/benz.webp
-  bg_image: images/backgrounds/benz.jpg
+  bg_image_webp: images/backgrounds/benn.webp
+  bg_image: images/backgrounds/benn.jpg
   icon: ''
   title: Experience the new reality
   content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi.
