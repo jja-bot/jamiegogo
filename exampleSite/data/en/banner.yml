@@ -4,9 +4,10 @@ banner:
   bg_image_webp: images/backgrounds/benn.webp
   bg_image: images/backgrounds/benn.jpg
   icon: ''
-  title: Experience the new reality
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi.
-    At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!
+  title: 第一俥保修聯盟
+  content: |-
+    保養+維修+檢驗 一次到位
+    買車安心養車放心
   button:
     enable: true
     label: Explore Us
