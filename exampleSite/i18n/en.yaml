@@ -1,25 +1,25 @@
 ---
-- id: 最新資訊
+- id: blog Title
   translation: 最新資訊
-- id: 看更多
+- id: readMore
   translation: 看更多
-- id: 全部資訊
+- id: viewAllPost
   translation: 全部資訊
-- id: 分享
+- id: share
   translation: 分享
-- id: 作者
+- id: aboutAuthor
   translation: 作者
 - id: authorsPosts
   translation: Author's posts
 - id: all
   translation: All
-- id: 關於
+- id: about
   translation: 3 大服務
-- id: 服務
+- id: services
   translation: 認證 / 嚴選維修廠
-- id: 團隊
+- id: team
   translation: 嚴選師傅
-- id: 最新資訊
+- id: blog
   translation: 最新資訊
-- id: 預約
+- id: contact
   translation: 預約保修 / 聯絡我們
