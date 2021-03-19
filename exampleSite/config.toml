@@ -3,23 +3,23 @@ disableLanguages = []
 disqusShortname = ""
 paginate = "6"
 summaryLength = "15"
-theme = "meghna-hugo"
+theme = ""
 themesDir = "../.."
-title = "Meghna"
+title = "DGCAR 第一俥"
 [Languages.en]
 contentDir = "content/english"
 copyright = ""
-home = "Home"
-languageCode = "en-us"
-languageName = "En"
+home = "首頁"
+languageCode = "zh-tw"
+languageName = "Zh"
 weight = 1
 [[Languages.en.menu.main]]
-name = "about"
+name = "3 大服務"
 pre = "#"
 url = "about"
 weight = 1
 [[Languages.en.menu.main]]
-name = "services"
+name = "服務內容"
 pre = "#"
 url = "services"
 weight = 2
@@ -29,7 +29,7 @@ pre = "#"
 url = "portfolio"
 weight = 3
 [[Languages.en.menu.main]]
-name = "team"
+name = "嚴選技師"
 pre = "#"
 url = "team"
 weight = 4
@@ -39,20 +39,15 @@ pre = "#"
 url = "pricing"
 weight = 5
 [[Languages.en.menu.main]]
-name = "blog"
+name = "最新資訊"
 pre = "#"
 url = "blog"
 weight = 6
 [[Languages.en.menu.main]]
-name = "contact"
+name = "預約"
 pre = "#"
 url = "contact"
 weight = 7
-[[Languages.en.menu.main]]
-name = "themefisher"
-pre = ""
-url = "https://themefisher.com/"
-weight = 8
 [Languages.fr]
 contentDir = "content/french"
 copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
