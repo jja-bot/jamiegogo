@@ -11,3 +11,7 @@ banner:
     enable: true
     label: Explore Us
     link: "#services"
+button:
+    enable: true
+    label: Explore Us
+    link: "#cta"
