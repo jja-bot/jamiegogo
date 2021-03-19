@@ -3,10 +3,9 @@ cta:
   enable: true
   bg_image: images/backgrounds/kidincar.jpg
   bg_image_webp: images/backgrounds/kidincar.webp
-  title: Great Design & Incredible Features
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur
-    odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum.
+  title: 24 小時免費拖吊服務
+  content: '0800-000-000'
   button:
     enable: true
-    label: Start a project with us
+    label: 現在預約
     link: "#contact"
