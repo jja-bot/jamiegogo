@@ -4,8 +4,8 @@ team:
   title: 嚴選技師
   team_member:
   - name: 王大衣
-    image_webp: exampleSite/static/images/about/alex.webp
-    image: exampleSite/static/images/about/alex.jpg
+    image_webp: images/team/alex.webp
+    image: images/team/alex.jpg
     designation: CEO/Founder
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
       ullam, culpa odio.
