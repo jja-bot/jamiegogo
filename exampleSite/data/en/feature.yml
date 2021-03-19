@@ -1,25 +1,24 @@
 ---
 feature:
   enable: true
-  image: images/backgrounds/保修背景.jpg
-  image_webp: images/backgrounds/保修背景.webp
-  title: We’re A Digital Design Agency.
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora
-    itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi.
+  image: images/backgrounds/bmwfix.jpg
+  image_webp: images/backgrounds/bmwfix.webp
+  title: 一條龍的服務，讓您買車放心+養車安心
+  content: 保養修繕/免費道路救援/
   feature_item:
-  - title: SEO Optimized
+  - title: 保養維修
     icon: ti-world
     content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
       dolores repellendus eos saepe
-  - title: Easy Customization
+  - title: 道路拖吊
     icon: ti-panel
     content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
       dolores repellendus eos saepe
-  - title: SEO Optimized
+  - title: 車況認證
     icon: ti-stats-up
     content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
       dolores repellendus eos saepe
-  - title: Easy Customization
+  - title: 誠信服務
     icon: ti-announcement
     content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
       dolores repellendus eos saepe
