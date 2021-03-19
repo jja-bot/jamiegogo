@@ -4,66 +4,20 @@
 {{ with $data.contact.contact }}
 {{"<!-- Start Contact Us -->" | safeHTML}}
 <section id="contact" class="contact-us section-bg">
-	{{"<!-- Contact Form -->" | safeHTML}}
-			{{ if .contact_form.enable }}
-			{{ with .contact_form }}
-		<div class="col-lg-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-	<form id="contact-form" class="form-meghna" method="post" action="{{ .form_action }}" role="form">
-					<div class="form-group">
+	<div class="container pb-5">
+		<div class="row">
+			<div class="col-lg-12">
+				{{"<!-- section title -->" | safeHTML}}
+				<div class="title text-center wow fadeIn" data-wow-duration="500ms">
+					<h2>{{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+							{{ with .title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
+					<div class="border-meghna"></div>
+				</div>
+			</div>
+			{{"<!-- /section title -->" | safeHTML}}
 
-        <h3>姓氏*</h3>
-        <label class="bfl-liner"><input type="text" placeholder="請輸入您的姓氏" name="last_name" value="" required=""></label>
-    </div>
-    <div class="booking-form-label">
-        <h3>名字*</h3>
-        <label class="bfl-liner"><input type="text" placeholder="請輸入您的名字" name="first_name" value="" required=""></label>
-        <label class="bfl-inline"><input type="radio" name="gender" value="先生" required=""> 先生</label>
-        <label class="bfl-inline"><input type="radio" name="gender" value="女士"> 女士</label>
-    </div>
-    <div class="booking-form-label">
-        <h3>手機號碼* (範例: 09xxxxxxxx)</h3>
-        <label class="bfl-liner"><input type="text" placeholder="請輸入您的手機號碼" name="mobile" value="" required=""></label>
-    </div>
-    <div class="booking-form-label">
-        <h3>EMAIL*</h3>
-        <label class="bfl-liner"><input type="text" placeholder="請輸入您的 email" name="email" value="" required=""></label>
-    </div>
-</div>
- 
-<div class="booking-form">
-    <div class="booking-form-label booking-form-block">
-        <label class="bfl-inline"><input type="radio" name="center" value="1" checked="" class="js-has-center"> 選擇偏好的展示中心</label>
-    </div>
-    <div class="booking-form-label js-center-map">
-        <div class="custom-select" id="js-area-custom-select">
-            <select name="area" id="js-area">
-                <option value="-1">請選擇地區</option>
-                                <option>大台北地區</option>
-                                <option>桃竹苗地區</option>
-                                <option>中彰投地區</option>
-                                <option>雲嘉南地區</option>
-                                <option>高屏地區</option>
-                                <option>宜蘭花蓮地區</option>
-                            </select>
-        <div class="select-selected">請選擇地區</div><div class="select-items select-hide"><div>大台北地區</div><div>桃竹苗地區</div><div>中彰投地區</div><div>雲嘉南地區</div><div>高屏地區</div><div>宜蘭花蓮地區</div></div></div>
-    </div>
-    <div class="booking-form-label js-center-map">
-        <div class="custom-select" id="js-custom-select">
-            <select name="exhibition" id="js-exhibition">
-                <option value="-1">請選擇展示中心</option>
-            </select>
-        <div class="select-selected">請選擇展示中心</div><div class="select-items select-hide"></div></div>
-    </div>
-   <div class="booking-form-label booking-form-block js-center-map">
-       <div class="gmap" id="gmap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.3621405644426!2d121.46659456499457!3d25.123444733930544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442af9a2893eb57%3A0x344fac685f1767f9!2z5Lit6I-v6LOT5aOr6Zec5rih5bGV56S65Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1612500777612!5m2!1szh-TW!2stw" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
-   </div>
-</div>
-<div class="booking-btns">
-    <button>送出</button>
-</div>
-
-{{"<!-- Contact Details -->" | safeHTML}}
-			<div class="contact-info col-lg-12 wow fadeInUp" data-wow-duration="500ms">
+			{{"<!-- Contact Details -->" | safeHTML}}
+			<div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
 				<h3>{{ .subtitle | markdownify }}</h3>
 				<p> {{ .content | markdownify }} </p>
 
@@ -79,7 +33,29 @@
 				{{ end }}
 			</div>
 
-		
+			{{"<!-- Contact Form -->" | safeHTML}}
+			{{ if .contact_form.enable }}
+			{{ with .contact_form }}
+			<div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+				<form id="contact-form" class="form-meghna" method="post" action="{{ .form_action }}" role="form">
+					<div class="form-group">
+						<input type="text" placeholder="{{ .name }}" class="form-control" name="name" id="name">
+					</div>
+					<div class="form-group">
+						<input type="email" placeholder="{{ .email }}" class="form-control" name="email" id="email">
+					</div>
+					<div class="form-group">
+						<input type="text" placeholder="{{ .subject }}" class="form-control" name="subject" id="subject">
+					</div>
+					<div class="form-group">
+						<textarea rows="6" placeholder="{{ .message }}" class="form-control" name="message" id="message"></textarea>
+					</div>
+					<div id="cf-submit">
+						<button type="submit" id="contact-submit" class="btn btn-transparent btn-block"
+							value="{{ .submit }}">{{ .submit }}</button>
+					</div>
+				</form>
+			</div>
 			{{ end }}
 			{{ else }}
 			<div class="contact-details">
