@@ -10,5 +10,5 @@ banner:
     買車安心養車放心
   button:
     enable: true
-    label: Explore Us
+    label: 現在預約
     link: "#cta"
