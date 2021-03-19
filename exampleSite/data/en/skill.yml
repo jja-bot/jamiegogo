@@ -1,13 +1,13 @@
 ---
 skill:
   enable: true
-  title: Our Skills
-  subtitle: We’ve skilled in wide range of web and Other digital market tools.
-  content: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
-    magni explicabo cum aperiam recusandae sunt accusamus totam. Quidem quos fugiat
-    sapiente numquam accusamus quas hic, itaque in libero reiciendis tempora!
+  title: 經常修繕
+  subtitle: 擁有10年以上的經驗,經手多元品牌
+  content: 最常修繕品牌瀏覽
   image: images/about/carcar.webp
   skill_item:
+  - percent: ''
+    name: ''
   - percent: BMW
     name: BMW
   - name: BENZ
