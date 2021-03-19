@@ -10,7 +10,7 @@ banner:
   button:
     enable: true
     label: Explore Us
-    link: "#contact"
+    link: "#services"
  button:
     enable: true
     label: Explore Us
