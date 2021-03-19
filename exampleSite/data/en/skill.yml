@@ -7,4 +7,8 @@ skill:
     magni explicabo cum aperiam recusandae sunt accusamus totam. Quidem quos fugiat
     sapiente numquam accusamus quas hic, itaque in libero reiciendis tempora!
   image: images/about/company-growth.webp
-  skill_item: []
+  skill_item:
+  - percent: BMW
+    name: BMW
+  - name: BENZ
+    percent: BZ
