@@ -3,9 +3,9 @@ team:
   enable: true
   title: 嚴選技師
   team_member:
-  - name: Abul Mal Muhit
-    image_webp: images/team/team-1.webp
-    image: images/team/team-1.jpg
+  - name: 王大衣
+    image_webp: exampleSite/static/images/about/alex.webp
+    image: exampleSite/static/images/about/alex.jpg
     designation: CEO/Founder
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
       ullam, culpa odio.
@@ -37,21 +37,6 @@ team:
     image_webp: images/team/team-3.webp
     image: images/team/team-3.jpg
     designation: Web Developer
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
-      ullam, culpa odio.
-    social:
-    - icon: ti-facebook
-      link: "#"
-    - icon: ti-twitter-alt
-      link: "#"
-    - icon: ti-linkedin
-      link: "#"
-    - icon: ti-dribbble
-      link: "#"
-  - name: Mo. Kha. Alamgir
-    image_webp: images/team/team-4.webp
-    image: images/team/team-4.jpg
-    designation: SEO Specialist
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
       ullam, culpa odio.
     social:
