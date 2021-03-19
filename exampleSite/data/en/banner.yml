@@ -7,11 +7,11 @@ banner:
   title: Experience the new reality
   content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi.
     At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!
-  button1:
+  button:
     enable: true
     label: Explore Us
     link: "#contact"
- button2:
+ button:
     enable: true
     label: Explore Us
     link: "#cta"
