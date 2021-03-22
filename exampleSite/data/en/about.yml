@@ -5,13 +5,18 @@ about:
   about_item:
   - icon: ti-ruler-pencil
     title: 保養維修
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil,
-      libero, perspiciatis eos provident laborum eum dignissimos.
+    content: 搭配新世代車款的 IDS 電腦診斷模組，擺脫傳統老師傅未必專業的修車技術，以效率、科學及精確的方法一次解決愛車的所有問題。在最新的 TDCi
+      柴油引擎維修上，也擁有專業 IDS 數位診斷儀器優異的維護及系統更新服務。
   - icon: ti-car
     title: 道路拖吊
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil,
-      libero, perspiciatis eos provident laborum eum dignissimos.
-  - icon: ti-thought
+    content: |-
+      不論您在車子的使用上有任何問題，
+      都可撥打 0800-032-100，即能獲得諮詢與協助。
+      新車、售後服務、貸款及道路救援等相關資訊
+      亦可透過專線得到解決。
+  - icon: ti-tag
     title: 車況認證
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil,
-      libero, perspiciatis eos provident laborum eum dignissimos.
+    content: |-
+      不論是服務專員、專業技師或是顧客服務中心人員，
+      都經過原廠標準認證。
+      讓最專業的團隊給您與您的愛車最佳的品質與服務。
