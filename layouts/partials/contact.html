@@ -45,13 +45,16 @@
 						<input type="radio" placeholder="女士"  class="form-control" name="gender" id="XXX">
 										</div>
 					<div class="form-group">
-						<input type="email" placeholder="{{ .email }}" class="form-control" name="email" id="email">
+						<input type="tel" placeholder="{{ .email }}" class="form-control" name="email" id="email">
 					</div>
 					<div class="form-group">
 						<input type="text" placeholder="{{ .subject }}" class="form-control" name="subject" id="subject">
 					</div>
 					<div class="form-group">
-						<textarea rows="6" placeholder="{{ .message }}" class="form-control" name="message" id="message"></textarea>
+						<input type="date" value="2020-04-20"
+						       min="2020-04-01"
+        						max="2022-04-30"
+       							step="1" class="form-control" name="date" id="date">
 					</div>
 					<div id="cf-submit">
 						<button type="submit" id="contact-submit" class="btn btn-transparent btn-block"
