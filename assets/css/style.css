@@ -690,14 +690,14 @@ a:hover {
 }
 
 .contact-form {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .form-meghna .form-control {
   background-color: transparent;
-  border-radius: 0;
+  border-radius: 10px;
   padding: 5px 10px;
-  color: #ddd;
+  color: #bbbbbb;
   border: 1px solid rgba(236, 239, 241, 0.07);
 }
 
