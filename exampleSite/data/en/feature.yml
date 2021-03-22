@@ -7,18 +7,14 @@ feature:
   content: 第一俥秉持「專業、誠信、服務」之經營理念，結合全台優良汽車保修業者，藉由分佈全台的聯盟網路，提供車主最即時、專業、全方位的汽車保修服務。
   feature_item:
   - title: 保養維修
-    icon: ti-flag-alt
-    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
-      dolores repellendus eos saepe
+    icon: ti-flag-alt-2
+    content: 設備維修是指通過修複或更換磨損零件，調整精度，排除故障，恢復設備原有功能而進行的技術 ... 設備維修的基本內容包括：設備維護保養、設備檢查和設備修理。
   - title: 道路拖吊
-    icon: ti-panel
-    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
-      dolores repellendus eos saepe
+    icon: ti-truck
+    content: 針對符合登錄條件之玉山信用卡正卡持卡人，得於完成登錄道路救援車號後，指定 ... 免費汽車道路救援服務及急修服務，服務範疇包含汽車拖吊、接電啟動、更換備胎、充氣服務。
   - title: 車況認證
-    icon: ti-stats-up
-    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
-      dolores repellendus eos saepe
+    icon: ti-dashboard
+    content: 獨家認證中心，合作維修廠、保險公司，保護客戶權益。
   - title: 誠信服務
     icon: ti-announcement
-    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
-      dolores repellendus eos saepe
+    content: 業界20年經驗，與維修廠及保險公司長期合作。
