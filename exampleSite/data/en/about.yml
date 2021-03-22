@@ -1,6 +1,6 @@
 ---
 about:
-  enable: true
+  enable: false
   title: 三大服務
   about_item:
   - icon: ti-ruler-pencil
