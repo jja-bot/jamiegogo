@@ -19,15 +19,15 @@ pre = "#"
 url = "services"
 weight = 2
 [[Languages.en.menu.main]]
-name = "嚴選技師"
-pre = "#"
-url = "team"
-weight = 4
-[[Languages.en.menu.main]]
 name = "最新資訊"
 pre = "#"
 url = "blog"
 weight = 6
+[[Languages.en.menu.main]]
+name = "嚴選技師"
+pre = "#"
+url = "team"
+weight = 4
 [[Languages.en.menu.main]]
 name = "預約"
 pre = "#"
