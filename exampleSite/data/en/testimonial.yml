@@ -1,8 +1,8 @@
 ---
 testimonial:
   enable: false
-  bg_image: images/backgrounds/bg-testimonial.jpg
-  bg_image_webp: images/backgrounds/bg-testimonial.webp
+  bg_image: images/backgrounds/carcar.jpg
+  bg_image_webp: images/backgrounds/carcar.webp
   testimonial_item:
   - name: Jonathon Andrew
     image: images/client/client-1.jpg
