@@ -13,6 +13,5 @@ service:
     content: '全天候道路救援、故障車拖吊，急修救援專人快速到場處理，價格公道。 地下室拖吊，全載車拖吊，輪胎陷沙堆，事故現場處理。急修服務。重機救援。道路救援。超跑運送。服務:
       汽車拖吊、重機救援、接電服務、 車輛報廢。'
   - name: 車況認證
-    icon: ti-blackboard
-    content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-      facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    icon: ti-check-box
+    content: 認證給予認證合格車輛『認證結構封條』、『認證標章』及『認證書』，並針對認證合格車輛，給予三大保證：無泡水、無重大事故、無引擎車身號碼變造。
