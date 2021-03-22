@@ -3,7 +3,7 @@ feature:
   enable: true
   image: images/backgrounds/bmwfix.jpg
   image_webp: images/backgrounds/bmwfix.webp
-  title: 第一俥一條龍的服務，讓您買車放心 ◆◆ 養車安心
+  title: 第一俥一條龍的服務，讓您買車放心 養車安心
   content: 第一俥秉持「專業、誠信、服務」之經營理念，結合全台優良汽車保修業者，藉由分佈全台的聯盟網路，提供車主最即時、專業、全方位的汽車保修服務。
   feature_item:
   - title: 保養維修
