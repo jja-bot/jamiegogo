@@ -4,7 +4,7 @@ service:
   title: 服務內容
   service_item:
   - name: 維修保養
-    icon: ti-world
+    icon: ti-car
     content: |-
       精選全台各區保修廠，專業修繕進口高價車。 <br>
       原料品質優良，無安全疑慮。師傅專業技術支援與知識更新，在維修與保養上追求最高品質。
