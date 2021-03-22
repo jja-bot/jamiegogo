@@ -14,7 +14,7 @@ languageCode = "zh-tw"
 languageName = "Zh"
 weight = 1
 [[Languages.en.menu.main]]
-name = "3大服務"
+name = "服務內容"
 pre = "#"
 url = "services"
 weight = 2
