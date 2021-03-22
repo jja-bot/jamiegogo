@@ -1,8 +1,8 @@
 ---
 funfacts:
   enable: true
-  bg_image: images/backgrounds/bg-white-wall.jpg
-  bg_image_webp: images/backgrounds/bg-white-wall.webp
+  bg_image: images/backgrounds/carcar.jpg
+  bg_image_webp: images/backgrounds/carcar.webp
   counter_item:
   - title: 累積顧客數
     icon: ti-face-smile
