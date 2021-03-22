@@ -6,11 +6,10 @@ team:
   - name: 王大衣
     image_webp: images/team/alex.webp
     image: images/team/alex.jpg
-    designation: CEO/Founder
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
-      ullam, culpa odio.
+    designation: 華強維修廠 / 北區
+    content: 專長修繕BMW、BENZ...等，備有專業電腦檢測儀器。
     social:
-    - icon: ti-line
+    - icon: ti-facebook
       link: "#"
     - icon: ti-twitter-alt
       link: "#"
