@@ -16,8 +16,8 @@ contact:
   contact_form:
     enable: true
     form_action: "#"
-    name: Your Name
-    email: Your Email
-    subject: Subject
+    name: 您的姓名
+    email: 您的電話
+    subject: 車牌號碼
     message: Message
-    submit: Submit
+    submit: 現在預約
