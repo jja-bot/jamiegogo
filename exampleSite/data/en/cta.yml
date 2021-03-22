@@ -3,8 +3,8 @@ cta:
   enable: true
   bg_image: images/backgrounds/kidincar.jpg
   bg_image_webp: images/backgrounds/kidincar.webp
-  title: 24 小時免費拖吊服務
-  content: '0800-000-000'
+  title: '0800-000-000'
+  content: 24 小時免費拖吊服務
   button:
     enable: true
     label: 現在預約
