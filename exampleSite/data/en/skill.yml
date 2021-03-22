@@ -1,14 +1,16 @@
 ---
 skill:
   enable: true
-  title: 經常修繕
-  subtitle: 擁有10年以上的經驗,經手多元品牌
-  content: 最常修繕品牌瀏覽
+  title: 專門保修
+  subtitle: 擁有20年以上的經驗、經手多元品牌
+  content: 最常保修品牌瀏覽
   image: images/about/carcar.webp
   skill_item:
-  - percent: ''
-    name: ''
   - percent: BMW
     name: BMW
   - name: BENZ
     percent: BZ
+  - percent: Porsche
+    name: Porsche
+  - name: Audi
+    percent: Audi
