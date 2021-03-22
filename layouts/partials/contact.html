@@ -42,20 +42,24 @@
 						<input type="text" placeholder="{{ .name }}" class="form-control" name="name" id="name">
 					</div>
 					<div class="form-group">
-						<input type="radio" placeholder="女士"  class="form-control" name="gender" id="XXX">
-										</div>
-					<div class="form-group">
 						<input type="tel" placeholder="{{ .email }}" class="form-control" name="email" id="email">
 					</div>
 					<div class="form-group">
 						<input type="text" placeholder="{{ .subject }}" class="form-control" name="subject" id="subject">
 					</div>
 					<div class="form-group">
-						<input type="date" value="2020-04-20"
-						       min="2020-04-01"
-        						max="2022-04-30"
+						<input type="date" value=""
+						       min="2021-04-01"
+        						max="2031-12-31"
        							step="1" class="form-control" name="date" id="date">
 					</div>
+					<select>
+    <option>請選擇您最近的維修廠</option>
+    <option>北區</option>
+    <option>中區</option>
+    <option>南區</option>
+    <option>花東地區</option>
+    </select>
 					<div id="cf-submit">
 						<button type="submit" id="contact-submit" class="btn btn-transparent btn-block"
 							value="{{ .submit }}">{{ .submit }}</button>
