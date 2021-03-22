@@ -5,8 +5,9 @@ service:
   service_item:
   - name: 維修保養
     icon: ti-world
-    content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-      facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    content: |-
+      精選全台各區保修廠，專業修繕進口高價車。 <br>
+      原料品質優良，無安全疑慮。師傅專業技術支援與知識更新，在維修與保養上追求最高品質。
   - name: 道路拖吊
     icon: ti-layout
     content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
