@@ -77,7 +77,7 @@ url = "contact"
 weight = 7
 [params]
 author = ""
-description = "Responsive Multipurpose Parallax Hugo Template"
+description = ""
 google_analytics_id = ""
 logo = "images/logo.png"
 post_share = true
@@ -90,8 +90,6 @@ gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqO
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
 map_marker = "images/marker.png"
-[[params.plugins.css]]
-link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
 [[params.plugins.css]]
@@ -122,7 +120,4 @@ icon = "ti-facebook"
 link = "#"
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "#"
-[[params.social]]
-icon = "ti-youtube"
 link = "#"
