@@ -5,7 +5,7 @@ paginate = "6"
 summaryLength = "15"
 theme = ""
 themesDir = "../.."
-title = "DGCAR 第一俥"
+title = "D.E.G汽車服務聯盟"
 [Languages.en]
 contentDir = "content/english"
 copyright = ""
