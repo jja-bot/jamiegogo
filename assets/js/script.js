@@ -144,3 +144,40 @@ jQuery(function ($) {
 	});
 
 });
+
+/* ========================================================================= */
+	/*	contact jqery sel
+	/* =========================================================================  */
+
+//當sel值改變時觸發事件
+$("#sel").change(function(){
+  //此處用switch case來作為判斷式
+  //並以sel各個Option的Value作為判斷條件
+  //注意這邊有用parseInt將value值轉為整數型態否則會出現錯誤
+  switch (parseInt($(this).val())){
+  //默認行為，可以不寫
+  default:
+  //當value值為0時刪除sel2的Option Item
+  case 0: 
+      $("#sel2 option").remove();
+      break;
+  //當value值為1時刪除sel2的Option Item 
+  //並用陣列及each迴圈新增sel2的Option Item選項
+  case 1: 
+      $("#sel2 option").remove();
+      var array = [ "美國", "台灣", "中國", "英國", "法國" ];
+      //利用each遍歷array中的值並將每個值新增到Select中
+      $.each(array, function(i, val) {
+        $("#sel2").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
+      });      
+      break;
+  case 2: 
+      $("#sel2 option").remove();
+      var array = [ "歐洲", "亞洲", "非洲", "大洋洲", "南美洲", "北美洲", "南極洲" ];
+      //利用each遍歷array中的值並將每個值新增到Select中
+      $.each(array, function(i, val) {
+        $("#sel2").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
+      });      
+      break;
+ }
+});
