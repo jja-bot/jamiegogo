@@ -4,9 +4,9 @@
 - id: readMore
   translation: 看更多
 - id: viewAllPost
-  translation: viewAllPost
+  translation: 全部資訊
 - id: share
-  translation: share
+  translation: 分享
 - id: aboutAuthor
   translation: aboutAuthor
 - id: authorsPosts
