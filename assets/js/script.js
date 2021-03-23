@@ -165,7 +165,7 @@ $("#sel").change(function(){
   //並用陣列及each迴圈新增sel2的Option Item選項
   case 1: 
       $("#sel2 option").remove();
-      var array = [ "美國", "台灣", "中國", "英國", "法國" ];
+      var array = [ "華強維修廠(林口)", "維修廠1", "維修廠2", "維修廠3", "維修廠4" ];
       //利用each遍歷array中的值並將每個值新增到Select中
       $.each(array, function(i, val) {
         $("#sel2").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
@@ -173,11 +173,28 @@ $("#sel").change(function(){
       break;
   case 2: 
       $("#sel2 option").remove();
-      var array = [ "歐洲", "亞洲", "非洲", "大洋洲", "南美洲", "北美洲", "南極洲" ];
+      var array = [ "維修廠1", "維修廠2", "維修廠3", "維修廠4", "維修廠5", "維修廠6", "維修廠7" ];
       //利用each遍歷array中的值並將每個值新增到Select中
       $.each(array, function(i, val) {
         $("#sel2").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
       });      
       break;
+  case 3: 
+      $("#sel2 option").remove();
+      var array = [ "維修廠1", "維修廠2", "維修廠3", "維修廠4", "維修廠5", "維修廠6", "維修廠7" ];
+      //利用each遍歷array中的值並將每個值新增到Select中
+      $.each(array, function(i, val) {
+        $("#sel2").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
+      });      
+      break;		  
+case 4: 
+      $("#sel2 option").remove();
+      var array = [ "維修廠1", "維修廠2", "維修廠3", "維修廠4", "維修廠5", "維修廠6", "維修廠7" ];
+      //利用each遍歷array中的值並將每個值新增到Select中
+      $.each(array, function(i, val) {
+        $("#sel2").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
+      });      
+      break;			  
+		  
  }
 });
