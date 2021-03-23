@@ -79,7 +79,7 @@ weight = 7
 author = ""
 description = "Responsive Multipurpose Parallax Hugo Template"
 google_analytics_id = ""
-logo = "images/logo.png"
+logo = "images/favicon-32x32.png"
 post_share = true
 [params.cookies]
 enable = false
