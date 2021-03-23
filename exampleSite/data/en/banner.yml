@@ -1,8 +1,8 @@
 ---
 banner:
   enable: true
-  bg_image_webp: images/backgrounds/1-1.webp
-  bg_image: images/backgrounds/1-1.jpg
+  bg_image_webp: images/backgrounds/2-1.webp
+  bg_image: images/backgrounds/2-1.jpg
   icon: ''
   title: D.E.G汽車服務聯盟
   content: |-
