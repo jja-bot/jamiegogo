@@ -37,9 +37,8 @@
 			{{ if .contact_form.enable }}
 			{{ with .contact_form }}
 			<div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-				<form id="contact-form" class="form-meghna" method="post" action="{{ .form_action }}" role="form">
-					</div>					
-					<div class="form-group">
+				<form id="contact-form" class="form-meghna" method="post" action="{{ .form_action }}" role="form">						
+				<div class="form-group">
 						<form>姓名：<input type="text" placeholder="請輸入您的姓名" class="form-control" name="name" id="name">
 						</form>
 						</div>
@@ -66,6 +65,49 @@
 					</form>
 					</div>
 					<div class="form-group">
+						<select id="sel">
+  <option value="0">請選擇您的區域</option>
+  <option value="1">北區</option>
+  <option value="2">中區</option>
+  <option value="3">南區</option>	
+  <option value="4">花東地區</option>							
+</select>
+<select id="sel2"></select>
+
+$("#sel").change(function(){
+  
+  switch (parseInt($(this).val())){
+  
+  default:
+  case 0: 
+      $("#sel2 option").remove();
+      break;
+    case 1: 
+      $("#sel2 option").remove();
+      var array = [ "美國", "台灣", "中國", "英國", "法國" ];
+      //利用each遍歷array中的值並將每個值新增到Select中
+      $.each(array, function(i, val) {
+        $("#sel2").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
+      });      
+      break;
+  case 2: 
+      $("#sel2 option").remove();
+      var array = [ "歐洲", "亞洲", "非洲", "大洋洲", "南美洲", "北美洲", "南極洲" ];
+      //利用each遍歷array中的值並將每個值新增到Select中
+      $.each(array, function(i, val) {
+        $("#sel2").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
+      });      
+      break;
+ }
+});					
+						
+					
+						
+		
+						
+						
+						
+						
 <select>
     <option value="-1">請選擇您的區域</option>
     <option>北區</option>
