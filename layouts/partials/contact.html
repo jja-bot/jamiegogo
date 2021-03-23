@@ -73,7 +73,8 @@
   <option value="4">花東地區</option>							
 </select>
 <select id="sel2"></select>
-
+</div>						
+<div class="form-group">
 $("#sel").change(function(){
   
   switch (parseInt($(this).val())){
@@ -85,28 +86,26 @@ $("#sel").change(function(){
     case 1: 
       $("#sel2 option").remove();
       var array = [ "美國", "台灣", "中國", "英國", "法國" ];
-      //利用each遍歷array中的值並將每個值新增到Select中
-      $.each(array, function(i, val) {
+        $.each(array, function(i, val) {
         $("#sel2").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
       });      
       break;
   case 2: 
       $("#sel2 option").remove();
       var array = [ "歐洲", "亞洲", "非洲", "大洋洲", "南美洲", "北美洲", "南極洲" ];
-      //利用each遍歷array中的值並將每個值新增到Select中
-      $.each(array, function(i, val) {
+            $.each(array, function(i, val) {
         $("#sel2").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
       });      
       break;
  }
 });					
-						
+</div>		
 					
-						
+					
 		
 						
 						
-						
+				
 						
 <select>
     <option value="-1">請選擇您的區域</option>
