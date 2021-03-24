@@ -3,7 +3,7 @@ banner:
   enable: true
   bg_image_webp: images/backgrounds/1-1.webp
   bg_image: images/backgrounds/1-1.jpg
-  icon: "/images/favicon.ico"
+  icon: ''
   title: D.E.G汽車服務聯盟
   content: |-
     保養+維修+檢驗 一次到位
