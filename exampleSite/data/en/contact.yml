@@ -1,9 +1,9 @@
 ---
 contact:
   enable: true
-  title: 聯絡我們
+  title: 預約
   subtitle: 聯絡資訊
-  content: ''
+  content: 總管理處
   contact_list:
   - icon: ti-location-pin
     info: 台北市松山區南京東路五段34號12樓之1
