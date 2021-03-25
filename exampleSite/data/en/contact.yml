@@ -15,7 +15,7 @@ contact:
     info: 'E-mail: hello@meghna.com'
   contact_form:
     enable: true
-    form_action: https://forms.gle/dSrv57USmeTpT9nR9
+    form_action: "/forms.gle/dSrv57USmeTpT9nR9"
     name: 您的姓名
     email: 您的電話
     subject: 車牌號碼
