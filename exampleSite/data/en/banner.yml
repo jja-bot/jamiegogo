@@ -5,9 +5,7 @@ banner:
   bg_image: images/backgrounds/1-1.jpg
   icon: ''
   title: D.E.G汽車服務聯盟
-  content: |-
-    保養+維修+檢驗 一次到位
-    買車安心養車放心
+  content: 保修理賠一次到位 買車安心＊養車放心
   button:
     enable: true
     label: 現在預約
