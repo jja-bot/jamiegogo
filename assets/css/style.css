@@ -646,12 +646,13 @@ a:hover {
 
 .call-to-action h2 {
   font-weight: bolder;
-  color: #4a412a;
+  color: #f8d98f;
 }
 
 .call-to-action p {
-  font-size: 30px;
-  color: #f4c147;
+  font-size: 50px;
+  font-weight: bolder	
+  color: #473a3d;
 }
 
 .call-to-action .btn-main {
