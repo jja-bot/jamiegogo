@@ -3,8 +3,8 @@ cta:
   enable: true
   bg_image: images/backgrounds/legotow.jpg
   bg_image_webp: images/backgrounds/legotow.webp
-  title: '0800-000-000'
-  content: 24 小時免費拖吊服務
+  title: 24 小時免費拖吊
+  content: '0800-000-000'
   button:
     enable: true
     label: 現在預約
