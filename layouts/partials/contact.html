@@ -11,7 +11,6 @@
 				<div class="title text-center wow fadeIn" data-wow-duration="500ms">
 					<h2>{{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
 							{{ with .title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
-					<a href="https://lin.ee/SQfOyZR"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" height="36" border="0"></a>
 					<div class="border-meghna"></div>
 				</div>
 			</div>
@@ -21,7 +20,7 @@
 			<div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
 				<h3>{{ .subtitle | markdownify }}</h3>
 				<p> {{ .content | markdownify }} </p>
-
+<a href="https://lin.ee/SQfOyZR"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" height="36" border="0"></a>
 				{{ if .contact_form.enable }}
 				<div class="contact-details">
 					{{ range .contact_list }}
