@@ -16,8 +16,6 @@ contact:
   contact_form:
     enable: true
     form_action: https://formsubmit.co/gs.adm.888@gmail.com
-    provider: formsubmit
-email: gs.adm.888@gmail.com
     name: 您的姓名
     male: 先生
     female: 女士
