@@ -9,9 +9,9 @@ team:
     designation: 北區
     content: 專長修繕BMW、BENZ...等，備有專業電腦檢測儀器。
     social:
-    - icon: ti-mobile
-      link: "#"
     - icon: ti-facebook
+      link: "#"
+    - icon: ti-mobile
       link: "#"
   - name: "○○保修廠"
     image_webp: images/team/保養廠2.webp
@@ -24,18 +24,14 @@ team:
       link: "#"
     - icon: ti-mobile
       link: "#"
-  - name: 陳大三
-    image_webp: images/team/team-3.webp
-    image: images/team/team-3.jpg
-    designation: Web Developer
+  - name: "□□保養廠"
+    image_webp: images/team/保養廠3.webp
+    image: images/team/保養廠3.jpg
+    designation: 南區
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
       ullam, culpa odio.
     social:
     - icon: ti-facebook
       link: "#"
-    - icon: ti-twitter-alt
-      link: "#"
-    - icon: ti-linkedin
-      link: "#"
-    - icon: ti-dribbble
+    - icon: ti-mobile
       link: "#"
