@@ -38,8 +38,12 @@
 			{{ with .contact_form }}
 			
 			<div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-				<form id="contact-form" class="form-meghna" method="post" action="https://formsubmit.co/gs.adm.888@email.com" enctype="multipart/form-data" role="form">
-									<div class="form-group">
+				  {{ if eq .Site.Data.contact.provider "formspree" }}
+                <form id="contact-form" class="form-meghna" method="post" action="https://formspree.io/gs.adm.888@gmail.com role="form">
+            					{{else}}
+				 <form id="contact-form" class="form-meghna" method="post" action="sendmail.php" role="form">
+            					{{ end }}
+						
 						<form><h4>姓名<input type="text" placeholder="請輸入您的姓名" class="form-control" name="name" id="name">
 						</h4></form>
 						</div>
