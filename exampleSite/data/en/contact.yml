@@ -15,8 +15,8 @@ contact:
     info: 'E-mail: hello@meghna.com'
   contact_form:
     enable: true
-    form_action: https://formspree.io/gs.adm.888@gmail.com
-    provider: formspree
+    form_action: https://formsubmit.co/gs.adm.888@gmail.com
+    provider: formsubmit
 email: gs.adm.888@gmail.com
     name: 您的姓名
     male: 先生
