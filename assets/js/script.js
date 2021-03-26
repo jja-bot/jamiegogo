@@ -158,12 +158,12 @@ $("#sel").change(function(){
   //默認行為，可以不寫
   default:
   //當value值為0時刪除sel2的Option Item
-  case "請選擇地區": 
+  case "0": 
       $("#sel2 option").remove();
       break;
   //當value值為1時刪除sel2的Option Item 
   //並用陣列及each迴圈新增sel2的Option Item選項
-  case "北區": 
+  case "1": 
       $("#sel2 option").remove();
       var array = [ "華強維修廠(林口)", "維修廠1", "維修廠2", "維修廠3", "維修廠4" ];
       //利用each遍歷array中的值並將每個值新增到Select中
@@ -171,7 +171,7 @@ $("#sel").change(function(){
         $("#sel2").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
       });      
       break;
-  case "中區": 
+  case "2": 
       $("#sel2 option").remove();
       var array = [ "維修廠1", "維修廠2", "維修廠3", "維修廠4", "維修廠5", "維修廠6", "維修廠7" ];
       //利用each遍歷array中的值並將每個值新增到Select中
@@ -179,7 +179,7 @@ $("#sel").change(function(){
         $("#sel2").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
       });      
       break;
-  case "南區": 
+  case "3": 
       $("#sel2 option").remove();
       var array = [ "維修廠1", "維修廠2", "維修廠3", "維修廠4", "維修廠5", "維修廠6", "維修廠7" ];
       //利用each遍歷array中的值並將每個值新增到Select中
@@ -187,7 +187,7 @@ $("#sel").change(function(){
         $("#sel2").append($("<option value='" + array[i] + "'>" + array[i] + "</option>"));
       });      
       break;		  
-case "花東區": 
+case "4": 
       $("#sel2 option").remove();
       var array = [ "維修廠1", "維修廠2", "維修廠3", "維修廠4", "維修廠5", "維修廠6", "維修廠7" ];
       //利用each遍歷array中的值並將每個值新增到Select中
