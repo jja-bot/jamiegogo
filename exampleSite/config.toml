@@ -24,7 +24,7 @@ pre = "#"
 url = "blog"
 weight = 6
 [[Languages.en.menu.main]]
-name = "嚴選技師"
+name = "嚴選維修廠"
 pre = "#"
 url = "team"
 weight = 4
