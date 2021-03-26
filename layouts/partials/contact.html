@@ -20,13 +20,13 @@
 			<div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
 				<h3>{{ .subtitle | markdownify }}</h3>
 				<p> {{ .content | markdownify }} </p>
-<a href="https://lin.ee/SQfOyZR"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" height="36" border="0"></a>
 				{{ if .contact_form.enable }}
 				<div class="contact-details">
 					{{ range .contact_list }}
 					<div class="con-info clearfix">
 						<i class="{{ .icon }}"></i>
 						<span>{{ .info }}</span>
+						<a href="https://lin.ee/SQfOyZR"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" height="36" border="0"></a>
 					</div>
 					{{ end }}
 				</div>
