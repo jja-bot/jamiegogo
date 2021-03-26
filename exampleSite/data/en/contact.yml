@@ -15,9 +15,20 @@ contact:
     info: 'E-mail: hello@meghna.com'
   contact_form:
     enable: true
-    form_action: https://formspree.io/f/xdoynnna
+    form_action: https://formspree.io/gs.adm.888@gmail.com
+    provider: formspree
+email: gs.adm.888@gmail.com
     name: 您的姓名
+    male: 先生
+    female: 女士
+    phone: 您的電話
     email: 您的電話
+    nember: 車牌號碼
     subject: 車牌號碼
-    message: Message
+    general: 一般維修
+		cold: 冷暖氣系統檢修
+		color: 鈑烤維修
+		periods: 定期保養維修
+		other: 其他
+    location: 最近服務廠
     submit: 現在預約
