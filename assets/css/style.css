@@ -302,8 +302,9 @@ a:hover {
 
 .title h2 {
   text-transform: capitalize;
-  font-weight: 700;
-  font-size: 58px;
+  Font-size=62.5%
+	font-weight: 700;
+  font-size: 5em;
   color: #fff;
 }
 
