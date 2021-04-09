@@ -1,4 +1,4 @@
-baseURL = "https://jja-bot.netlify.com"
+baseURL = "http://degcar.url.tw/"
 disableLanguages = ["fr"]
 disqusShortname = ""
 paginate = "6"
