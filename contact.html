@@ -1,0 +1,104 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.contact.contact.enable }}
+{{ with $data.contact.contact }}
+{{"<!-- Start Contact Us -->" | safeHTML}}
+<section id="contact" class="contact-us section-bg">
+	<div class="container pb-5">
+		<div class="row">
+			<div class="col-lg-12">
+				{{"<!-- section title -->" | safeHTML}}
+				<div class="title text-center wow fadeIn" data-wow-duration="500ms">
+					<h2>{{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+							{{ with .title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
+					<div class="border-meghna"></div>
+				</div>
+			</div>
+			{{"<!-- /section title -->" | safeHTML}}
+
+			{{"<!-- Contact Details -->" | safeHTML}}
+			<div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
+				<h3>{{ .subtitle | markdownify }}</h3>
+				<p> {{ .content | markdownify }} <a href="https://lin.ee/SQfOyZR"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" height="36" border="0"></a></p>
+				{{ if .contact_form.enable }}
+				<div class="contact-details">
+					{{ range .contact_list }}
+					<div class="con-info clearfix">
+						<i class="{{ .icon }}"></i>
+						<span>{{ .info }}</span>
+					</div>
+					{{ end }}
+				</div>
+				{{ end }}
+			</div>
+
+			{{"<!-- Contact Form -->" | safeHTML}}
+			{{ if .contact_form.enable }}
+			{{ with .contact_form }}
+			
+			<div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">			
+			<form id="contact-form" class="form-meghna" method="POST" action="https://formsubmit.co/12d2efd5242b76635d78c872adbf5e52" enctype="multipart/form-data">
+  				<input type="hidden" name="_subject" value="新預約，請盡快通知!">
+				<input type="text" name="_honey" style="display:none">
+				<input type="hidden" name="_captcha" value="false">
+				<label><h4>姓名
+						<input type="text" placeholder="請輸入您的姓名" class="form-control" name="name" id="name">
+				</h4></label>
+				
+				<div class="form-group">
+						<input type="radio" name="male" value="先生"> 先生
+						<input type="radio" name="female" value="女士"> 女士
+				</div>
+				<div class="form-group">
+				<label><h4>連絡電話
+						<input type="tel" placeholder="請輸入您的連絡電話" class="form-control" name="phone" id="email">
+						</h4></label>
+				</div>
+				<div class="form-group">
+				<label><h4>車牌號碼
+						<input type="text" placeholder="請輸入您的車牌號碼" class="form-control" name="number" id="subject">
+				</h4></label>
+				</div>
+				<div class="form-group">
+				<label><h4>預約服務項目</h4>
+						<input type="checkbox"  value="一般維修" name="general" id="general">一般維修
+						<input type="checkbox"  value="冷暖氣系統檢修" name="cold" id="cold"> 冷暖氣系統檢修
+						<input type="checkbox"  value="鈑烤維修" name="color" id="color"> 鈑烤維修
+						<input type="checkbox"  value="定期保養維修" name="periods" id="periods"> 定期保養維修
+						<input type="checkbox"  value="其他" name="other" id="other"> 其他
+				</label>
+				</div>
+				<div class="form-group">
+				<label><h4>請選擇您最近的服務廠<h4>
+						<h6><select id="sel" name="location">
+  						<option value="0">請選擇地區</option>
+						<option value="1">北區</option>
+						<option value="2">中區</option>
+						<option value="3">南區</option>	
+						<option value="4">花東區</option>							
+						</select>
+						<select id="sel2" name="location2"></select><h6>
+				</label></div>						
+				<div id="cf-submit"><h4>
+						<button type="submit" id="contact-submit" class="btn btn-transparent btn-block"
+						value="現在預約">現在預約</button>
+				<h4></div>
+				</form>
+				</div>
+			{{ end }}
+			{{ else }}
+			<div class="contact-details">
+				{{ range .contact_list }}
+				<div class="con-info clearfix">
+					<i class="{{ .icon }}"></i>
+					<span>{{ .info }}</span>
+				</div>
+				{{ end }}
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</section>
+{{"<!-- /contact -->" | safeHTML}}
+{{ end }}
+{{ end }}
